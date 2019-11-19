@@ -66,11 +66,14 @@ console.log("Ejercicio 33");
 
 
 let cantidadDePersonas = 100;
-cantidadDePersonas = cantidadDePersonas + 5;
+//cantidadDePersonas = cantidadDePersonas + 5; 
+cantidadDePersonas += 5; 
 console.log(`En este momento, la cantidad de personas es: ${cantidadDePersonas}`);
-cantidadDePersonas = cantidadDePersonas - 3;
+//cantidadDePersonas = cantidadDePersonas - 3;
+cantidadDePersonas -= 3;
 console.log(`Después de que tres personas se dieron de baja, la cantidad de personas es: ${cantidadDePersonas}`);
-cantidadDePersonas = cantidadDePersonas * 2;
+//cantidadDePersonas = cantidadDePersonas * 2;
+cantidadDePersonas *=2; // igual a decir cantidadDePersonas += cantidadDePersonas
 console.log(`Después de comprar la empresa y duplicar la cantidad de personas, la cantidad es: ${cantidadDePersonas}`);
 
 
@@ -93,6 +96,7 @@ console.log("Ejercicio 35");
 let numeroDeCliente = 143245;
 let numeroDeClienteIngresado = 143245;
 numeroDeCliente === numeroDeClienteIngresado && console.log(`El número de cliente ingresado es correcto.`);
+typeof numeroDeCliente === typeof numeroDeClienteIngresado && console.log(`El tipo de número de cliente ingresado es correcto.`);
 //Falta comparación por tipo de datos. No sé cómo hacerla.
 
 console.log("");
