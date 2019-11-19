@@ -97,7 +97,6 @@ let numeroDeCliente = 143245;
 let numeroDeClienteIngresado = 143245;
 numeroDeCliente === numeroDeClienteIngresado && console.log(`El número de cliente ingresado es correcto.`);
 typeof numeroDeCliente === typeof numeroDeClienteIngresado && console.log(`El tipo de número de cliente ingresado es correcto.`);
-//Falta comparación por tipo de datos. No sé cómo hacerla.
 
 console.log("");
 console.log("");
